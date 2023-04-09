@@ -1,0 +1,9 @@
+{% extends '_layout.html' %}
+
+{% block title %}Movie Rating App | {{ movie[0][1] }}{% endblock %}
+
+{% block body %}
+<h1>{{ movie[0][1] }} - {{ movie[0][3] }}</h1>
+<h2>{{ movie[0][2] }}</h2>
+
+{% endblock %}
